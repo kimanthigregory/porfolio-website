@@ -1,0 +1,74 @@
+body{
+    background-color: #14121c;
+    color: #ffff;
+    font-family: 'League Spartan', sans-serif;
+}
+/* typography */
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 3em;
+}
+p{
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+li{
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-1-tittle button{
+    height: 5em;
+    width: 300px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid #64698D;
+    color: #ffff;
+}
+.btn-2-mycv button{
+    height: 5em;
+    width: 300px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid #64698d;
+    color: #ffff;
+    margin: 3em 0 4em 0;
+    text-align: left;
+}
+.btn-2-mycv button img{
+    height: 1.5em;
+    color: #64698d;
+}
+.column-two img{
+    width: 300px;
+    border-radius: 50% 0 50%;
+    margin-top: 5em;
+    /* height: 40px; */
+}
+/* layout */
+.section-container{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 4em;
+}
+.container ul{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.container li{
+    list-style: none;
+    cursor: pointer;
+
+}
+.container li:hover{
+    border-bottom: 2px solid #ffff;
+}
