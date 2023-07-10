@@ -19,6 +19,15 @@ li{
     font-size: 1.2em;
     font-family: 'Open Sans', sans-serif;
 }
+.arrow-icon{
+    width: 1.5em;
+}
+.socials-icon{
+    width: 3em;
+}
+.language-icon{
+    width: 8em;
+}
 .btn-1-tittle button{
     height: 4em;
     width: 300px;
@@ -28,6 +37,7 @@ li{
     border: 1px solid #64698D;
     color: #ffff;
 }
+
 .btn-2-mycv button{
     height: 4em;
     width: 300px;
