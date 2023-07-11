@@ -36,8 +36,11 @@ li{
     background-color: transparent;
     border: 1px solid #64698D;
     color: #ffff;
+    cursor: pointer;
 }
-
+.btn-1-tittle button:hover{
+    height: 4.5em;
+}
 .btn-2-mycv button{
     height: 4em;
     width: 300px;
@@ -48,37 +51,65 @@ li{
     color: #ffff;
     margin: 3em 0 4em 0;
     text-align: left;
+    cursor: pointer;
 }
 .btn-2-mycv button img{
     height: 1.5em;
     color: #64698d;
 }
+.btn-2-mycv button:hover{
+    height: 4.5em;
+}
 .column-two img{
     width: 300px;
     border-radius: 50% 0 50%;
-    margin-top: 5em;
     /* height: 40px; */
+}
+.search-bar{
+    width: 550px;
+}
+.about{
+    width: 45%;
 }
 /* layout */
 .section-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
 }
-.container{
+.section2-container{
+    display: flex;
+    justify-content:space-between ;
+    /* height: 100vh; */
+    align-items: center;
+}
+.search-bar-column{
+    display: flex;
+    order: -1;
+}
+.container-1{
     display: flex;
     justify-content: end;
-    margin-bottom: 4em;
+    margin-bottom: 7em;
+    align-items: center;
+    height: 6em;
+    background-color: #171520;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
-.container ul{
+.container-1 ul{
     display: flex;
     justify-content: space-around;
     width: 70%;
 }
-.container li{
+.container-1 li{
     list-style: none;
     cursor: pointer;
 
 }
-.container li:hover{
+.container-1 li:hover{
     border-bottom: 2px solid #ffff;
 }
