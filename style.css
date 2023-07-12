@@ -20,7 +20,7 @@ li{
     font-family: 'Open Sans', sans-serif;
 }
 .arrow-icon{
-    width: 1.5em;
+    width: 1em;
 }
 .socials-icon{
     width: 3em;
@@ -60,6 +60,12 @@ li{
 .btn-2-mycv button:hover{
     height: 4.5em;
 }
+.live-priview-btn button{
+    background-color: #64698D;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
 .column-two img{
     width: 300px;
     border-radius: 50% 0 50%;
@@ -69,7 +75,10 @@ li{
     width: 550px;
 }
 .about{
-    width: 45%;
+    width: 40%;
+}
+.project-pic{
+    width: 700px;
 }
 /* layout */
 .section-container{
@@ -112,4 +121,47 @@ li{
 }
 .container-1 li:hover{
     border-bottom: 2px solid #ffff;
+}
+
+.background-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em 0 10em 0;
+}
+.section4{
+    margin-top: 5em;
+}
+.back-container{
+    display: flex;
+    column-gap: 10px;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.programming-languages{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #171520;
+    padding: 5em;
+    border-radius: 7px;
+}
+.skills P,.programming-lang-container{
+    text-align: center;
+}
+.project-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5em 0 5em 0 ;
+}
+.project{
+    width: 40%;
+}
+.project-photo img{
+    width:500px
 }
