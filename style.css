@@ -29,7 +29,13 @@ li{
     width: 8em;
 }
 .menu-icon{
-    width: 0em;
+    width: 0;
+}
+.logo-icon{
+    width: 0;
+}
+.logo-icon-1{
+    width: 6em;
 }
 .btn-1-tittle button{
     height: 4em;
@@ -87,6 +93,15 @@ li{
     width: 700px;
 }
 /* layout */
+.cont{
+    background-color: #171520;
+    height: 6em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
 .section-container{
     display: flex;
     justify-content: space-between;
@@ -106,9 +121,10 @@ li{
 }
 .container-1{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     margin-bottom: 7em;
     align-items: center;
+    width: 100%;
     height: 6em;
     background-color: #171520;
     position: fixed;
@@ -116,10 +132,21 @@ li{
     right: 0;
     left: 0;
 }
-.container-1 ul{
+.menu{
+    width: 0;
+    height: 0;
+}
+.nav{
+    width: 50%;
+    
+}
+.logo{
+    width: 50%;
+}
+.nav ul{
     display: flex;
-    justify-content: space-around;
-    width: 70%;
+    justify-content: space-between;
+    width: 100%;
     margin: 0;
 }
 .container-1 li{
@@ -210,6 +237,13 @@ li{
     .menu-icon{
         width: 2.5em;
     }
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+    .nav{
+        width: 0;
+    }
     .section-container{
         display: flex;
         flex-direction: column;
@@ -256,9 +290,7 @@ li{
     .background h2{
         text-align: center;
     }
-    .back-container{
-        /* text-align: center; */
-    }
+    
     .project-container{
         display: flex;
         flex-direction: column;
@@ -281,7 +313,7 @@ li{
     }
     .title h1{
         text-align: center;
-        width: ;
+        /* width:100% ; */
     }
     .socialmedia-container-1,.socialmedia-container-2{
         display: flex;
