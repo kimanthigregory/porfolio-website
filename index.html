@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="section1">
+    <section id="section1">
         <div class="cont">
             
             <div class="container-1 container container-sm">
@@ -20,24 +20,41 @@
                 </div>
                 <div class="nav">
                     <ul>
-                        <li><a href="./index.html">home</a></li>
-                        <li><a href="./pages/about.html">about</a></li> 
-                        <li><a href="./pages/background.html">background</a></li>
-                        <li><a href="./pages/skills.html">skills</a></li> 
-                        <li><a href="./pages/projects.html">projects</a></li>
-                        <li> <a href="./pages/contacts.html"></a></li>    
+                        <li><a href="#section3">home</a></li>
+                        <li><a href="#section4">about</a></li> 
+                        <li><a href="#section5">background</a></li>
+                        <li><a href="#section6">skills</a></li> 
+                        <li><a href="#section7">projects</a></li>
+                        <li> <a href="#section8">contacts</a></li>    
                     </ul>
         
                 </div>         
                 <div class="menu container-sm">
                     <img src="./images/menu1.png" alt="menu-icon" class="menu-icon">
+                    <!-- <img src="./images/close-icon.png" alt="close icon" > -->
                 </div> 
             </div>
     
         </div>
-    
+        
     </section>
-    <section>
+    <section id="section2">
+        <div class="side-bar">
+            <div class="close-icon">
+                <img src="./images/close-icon.png" alt="close icon" class="close">
+            </div>     
+            <ul>
+                <li><a href="#section3">home</a></li>
+                <li><a href="#section4">about</a></li> 
+                <li><a href="#section5">background</a></li>
+                <li><a href="#section6">skills</a></li> 
+                <li><a href="#section7">projects</a></li>
+                <li> <a href="#section8">contacts</a></li>    
+    </ul>
+    
+        </div>
+    </section>
+    <section id="section3">
         <div class="section-container container-sm">
             <div class="column-1">
                 <div class="title">
@@ -60,7 +77,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="section4">
         <div class="section2-container container container-sm">
             <div class="about">
                 <h2>Who is Gregory?</h2>
@@ -73,7 +90,7 @@
             </div>
         </div>
     </section>
-    <section class="container container-sm section4">
+    <section class="container container-sm section5" id="section5">
         <div class="background">
             <h2>My Background</h2>
 
@@ -111,7 +128,7 @@
         </div>
 
     </section>
-    <section class="container container-sm section5">
+    <section class="container container-sm section6" id="section6">
         <div class="skills">
             <h2>my coding skills</h2>
             <p>Programming languages & frameworks</p>
@@ -143,7 +160,7 @@
             </div> -->
         </div>
     </section>
-    <section class="container projects">
+    <section id="section7" class="container projects">
         <div class="project-container">
             <div class="column-one project">
                 <h2>About this project</h2>
@@ -187,7 +204,7 @@
             </div>
         </div>
     </section>
-    <footer class="container">
+    <footer class="container" id="section8">
         <div class="contacts">
             <h2>Reach Out to Me</h2>
         </div>
@@ -198,7 +215,7 @@
                 </div>
                 <div class="username">
                     <p>github</p>
-                    <a href=""><p>kimanthigregory</p></a>
+                    <a href="https://github.com/kimanthigregory" target="_blank"><p>kimanthigregory</p></a>
                 </div>
             </div>
             <div class="social's-content social-media-column1">
@@ -216,7 +233,7 @@
                 </div>
                 <div class="username">
                     <p>Twiter</p>
-                    <a href=""><p>@techboygabriel</p></a>
+                    <a href="https://twitter.com/Techboy_gabriel" target="_blank"><p>@techboygabriel</p></a>
                 </div>
             </div>
     
@@ -228,7 +245,7 @@
                 </div>
                 <div class="username">
                     <p>Instagram</p>
-                    <a href=""><p>@techboygabriel</p></a>
+                    <a href="https://www.instagram.com/techboygabriel/" target="_blank"><p>@techboygabriel</p></a>
                 </div>
             </div>
             <div class="social's-content social-media-column1">
@@ -237,12 +254,13 @@
                 </div>
                 <div class="username">
                     <p>linkedin</p>
-                    <a href=""><p>gregorykimanthi</p></a>
+                    <a href="https://www.linkedin.com/in/gregory-kimanthi-5a2820258/" target="_blank"><p>gregorykimanthi</p></a>
                 </div>
             </div>
     
         </div>
 
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>

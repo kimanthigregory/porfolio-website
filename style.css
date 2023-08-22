@@ -37,6 +37,42 @@ li{
 .logo-icon-1{
     width: 6em;
 }
+.side-bar img{
+    width: 2rem;
+    position: relative;
+    top: 1em;
+    left: 1.5rem;
+
+
+}
+.side-bar-close{
+    display: block;
+    transition: 1s;
+    /* width: 200px; */
+}
+
+.side-bar{
+    display: none;
+    width: 200px;
+    position: fixed;
+    top: 6em;
+    right: 0;
+    bottom: 0;
+    background-color: #171520;
+    opacity: 0.8;
+    transition: left 1s ease;
+}
+.side-bar ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10vh;
+}
+.side-bar ul a{
+    text-decoration: none;
+    color: white;
+}
 .btn-1-tittle button{
     height: 4em;
     width: 300px;
@@ -92,9 +128,13 @@ li{
 .project-pic{
     width: 700px;
 }
+.skills h2{
+    text-align: center;
+}
 /* layout */
 .cont{
     background-color: #171520;
+    opacity: 0.8;
     height: 6em;
     position: fixed;
     top: 0;
@@ -175,7 +215,7 @@ li{
     display: flex;
     column-gap: 10px;
 }
-.section5{
+.section6{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -234,7 +274,7 @@ li{
     .container-1 ul{
         display: none;
     }
-    .menu-icon{
+    .menu img{
         width: 2.5em;
     }
     .menu{
@@ -243,6 +283,13 @@ li{
     }
     .nav{
         width: 0;
+    }
+    .side-bar{
+        width: 200px;
+        display: none;
+    }
+    .side-bar-close{
+        display: block;
     }
     .section-container{
         display: flex;
@@ -269,12 +316,12 @@ li{
     }
     .about{
         width: 100%;
-        text-align: center;
-        text-align: justify;
+        /* text-align: center; */
+        /* text-align: justify; */
     }
     .search-bar,.project{
         width: 100%;
-        text-align: justify;
+        /* text-align: justify; */
     }
     .live-priview-btn {
         display: flex;
@@ -313,6 +360,7 @@ li{
     }
     .title h1{
         text-align: center;
+        font-size: 3rem;
         /* width:100% ; */
     }
     .socialmedia-container-1,.socialmedia-container-2{
