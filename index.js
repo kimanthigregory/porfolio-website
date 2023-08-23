@@ -8,7 +8,7 @@ document.querySelector(".menu-icon").addEventListener("click",function() {
     console.log(this.attr("class"))
 });
 for (var i=0; i<document.querySelectorAll(".nav a").length; i++) {
-    document.querySelectorAll(".nav a")[i].addEventListener(click,function (event) {
+    document.querySelectorAll(".nav a")[i].addEventListener("click",function (event) {
         event.preventDefault();
         var getSectionId = this.getAttribute("href");
         var sectionId = document.querySelectorAll("getSectionId");
