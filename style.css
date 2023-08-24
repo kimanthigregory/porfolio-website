@@ -125,9 +125,9 @@ li{
 .about h2{
     text-align: center;
 }
-.project-pic{
-    width: 700px;
-}
+/* .project-pic{
+    width:70%;
+} */
 .skills h2{
     text-align: center;
 }
@@ -239,10 +239,13 @@ li{
     margin: 5em 0 5em 0 ;
 }
 .project{
-    width: 40%;
+    width: 35%;
+}
+.column-two{
+    width: 60%;
 }
 .project-photo img{
-    width:500px
+    width:100%
 }
 .social-media-column1{
     display: flex;
@@ -349,6 +352,7 @@ li{
     .column-two{
         display: flex;
         order: -1;
+        width: 100%;
     }
     .project-photo img{
         width: 100%;
@@ -370,5 +374,8 @@ li{
     }
     .contacts h2{
         text-align: center;
+    }
+    .language-icon{
+        width: 6em;
     }
 }

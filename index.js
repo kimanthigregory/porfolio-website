@@ -11,8 +11,7 @@ for (var i=0; i<document.querySelectorAll(".nav a").length; i++) {
     document.querySelectorAll(".nav a")[i].addEventListener("click",function (event) {
         event.preventDefault();
         var getSectionId = this.getAttribute("href");
-        var sectionId = document.querySelectorAll("getSectionId");
-        
+        var sectionId = document.querySelector(getSectionId);
         if (sectionId) {
             var ofsetTop = sectionId.getBoundingClientRect().top;
             window.scrollTo({
