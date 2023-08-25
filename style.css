@@ -324,7 +324,7 @@ li{
     }
     .search-bar,.project{
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
         /* text-align: justify; */
     }
     .live-priview-btn {
@@ -347,7 +347,7 @@ li{
         flex-direction: column;
     }
     .project h2{
-        text-align: center;
+        /* text-align: center; */
     }
     .column-two{
         display: flex;
@@ -376,6 +376,9 @@ li{
         text-align: center;
     }
     .language-icon{
-        width: 6em;
+        width: 5em;
+    }
+    h2{
+        font-size: 3em;
     }
 }
