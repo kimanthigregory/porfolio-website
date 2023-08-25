@@ -327,11 +327,11 @@ li{
         /* text-align: center; */
         /* text-align: justify; */
     }
-    .live-priview-btn {
-        display: flex;
-        justify-content: center;
+    /* .live-priview-btn { */
+        /* display: flex; */
+        /* justify-content: center; */
 
-    }
+    /* } */
     .programming-languages{
         width: 100%;
         display: flex;
@@ -346,9 +346,9 @@ li{
         display: flex;
         flex-direction: column;
     }
-    .project h2{
-        /* text-align: center; */
-    }
+    /* .project h2{
+        text-align: center; */
+    /* } */
     .column-two{
         display: flex;
         order: -1;
@@ -379,6 +379,6 @@ li{
         width: 5em;
     }
     h2{
-        font-size: 3em;
+        font-size: 2.5em;
     }
 }
