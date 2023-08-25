@@ -18,6 +18,7 @@ for (var i=0; i<document.querySelectorAll(".nav a").length; i++) {
                 top:ofsetTop + window.scrollY,
                 behavior:"smooth"
             });
+          
         }
     })
 }

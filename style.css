@@ -45,6 +45,9 @@ li{
 
 
 }
+.nav-style{
+    border-bottom:2px solid #ffff ;
+}
 .side-bar-close{
     display: block;
     transition: 1s;
@@ -106,9 +109,9 @@ li{
     height: 4.5em;
 }
 .live-priview-btn button{
-    background-color: #64698D;
+    background-color: transparent;
     color: #ffff;
-    border: none;
+    border: 1px solid #64698d;
     cursor: pointer;
 }
 .column-2 img{
@@ -177,11 +180,11 @@ li{
     height: 0;
 }
 .nav{
-    width: 50%;
+    width: 60%;
     
 }
 .logo{
-    width: 60%;
+    width: 40%;
 }
 .nav ul{
     display: flex;
@@ -271,11 +274,15 @@ li{
 @media (max-width:480px){
     .container-1{
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
         
     }
     .container-1 ul{
         display: none;
+        width: 0;
+    }
+    .logo{
+        width: 60%;
     }
     .menu img{
         width: 2.5em;
