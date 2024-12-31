@@ -303,7 +303,8 @@ li {
   .section-container {
     display: flex;
     flex-direction: column;
-    height: 125vh;
+    gap: 3rem;
+    height: auto;
   }
   .column-2 {
     display: flex;
